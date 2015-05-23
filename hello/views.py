@@ -12,8 +12,8 @@ def index(request):
 
 def db(request):
 
-    greeting = Greeting()
-    greeting.save()
+    #greeting = Greeting()
+    #greeting.save()
 
     greetings = Greeting.objects.all()
 
